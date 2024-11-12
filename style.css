@@ -1,0 +1,67 @@
+@import url('https://fonts.googleapis.com/css2?family=Syne+Mono&display=swap');
+body {
+  font-family: Arial, sans-serif;
+  text-align: center;
+  padding: 20px;
+  background-color: #f9f9f9;
+}
+
+h2 {
+  color: #333;
+  margin-top: 20px;
+}
+
+.videos {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  margin: 20px 0;
+}
+
+.videos span {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+video {
+  width: 400px;
+  height: 300px;
+  background-color: #000;
+  border-radius: 8px;
+  border: 2px solid #ddd;
+}
+
+button {
+  padding: 10px 20px;
+  margin: 10px;
+  font-size: 16px;
+  color: #fff;
+  background-color: #007bff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+button:disabled {
+  background-color: #aaa;
+  cursor: not-allowed;
+}
+
+button:not(:disabled):hover {
+  background-color: #0056b3;
+}
+
+input {
+  padding: 10px;
+  width: 250px;
+  margin-top: 10px;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+  font-size: 16px;
+}
+
+input::placeholder {
+  color: #bbb;
+}

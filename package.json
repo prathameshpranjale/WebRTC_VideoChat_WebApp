@@ -1,0 +1,19 @@
+{
+  "name": "videochat",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview",
+    "start": "nodemon --watch src --exec \"vite\""
+  },
+  "devDependencies": {
+    "vite": "^5.4.10"
+  },
+  "dependencies": {
+    "firebase": "^11.0.1",
+    "nodemon": "^3.1.7"
+  }
+}
